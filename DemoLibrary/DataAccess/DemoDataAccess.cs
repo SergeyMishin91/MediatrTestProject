@@ -16,8 +16,8 @@ public class DemoDataAccess : IDataAccess
     {
         return people;
     }
-
-    public PersonModel InsertPerson(string firstName, string lastName)
+    
+    public PersonModel CreatePerson(string firstName, string lastName)
     {
         var p = new PersonModel()
         {
